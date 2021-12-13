@@ -1,0 +1,44 @@
+{
+  "name": "arive-api",
+  "version": "1.0.0",
+  "description": "Backend API assesment for Arive GMBH",
+  "main": "lib/app.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node lib/app.js",
+    "dev": "nodemon lib/main.js",
+    "test": "mocha lib/test/test.js",
+    "lint": "eslint -f visualstudio \"./src/**/*.ts\" 1>&2"
+  },
+  "keywords": [],
+  "author": "ahmadfaraz56@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongodb": "^4.1.1",
+    "mongoose": "^5.12.7",
+    "swagger-ui-express": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "10.14.1",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.4.1",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.4.0",
+    "typedoc": "^0.21.4",
+    "typescript": "~4.1.0"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
