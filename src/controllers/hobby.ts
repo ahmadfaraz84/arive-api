@@ -4,8 +4,8 @@ import HttpStatus from "../utils/Enums";
 import { Validator } from "../utils/validator";
 
 /**
- * Callback for Hobby POST endpoint
- * creates a user
+ * Callback for Hobby POST endpoint.
+ * creates a hobby. 
  * @param req 
  * @param res 
  * @returns 

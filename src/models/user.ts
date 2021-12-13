@@ -1,4 +1,4 @@
-import mongoose, { Query } from 'mongoose';
+import mongoose  from 'mongoose';
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
@@ -24,7 +24,7 @@ const userSchema = new Schema({
   /**
    * Middle ware to delete all hobbies
    */
-  userSchema.post('deleteMany',  async function(doc){
+  userSchema.post('deleteMany',  async function(_doc){
     await mongoose.model("Hobby").deleteMany({});
   });
 

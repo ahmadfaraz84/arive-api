@@ -21,7 +21,7 @@ app.use(helment());
 app.use(mLogger);
 
 // root route
-app.all("/", (req: express.Request, res: express.Response): any => {
+app.all("/", (req: express.Request, res: express.Response) => {
   return res
     .status(HttpStatus.OK)
     .send({ success: true, message: "The API is working" });
