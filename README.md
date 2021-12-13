@@ -48,8 +48,7 @@ I have tried to divide responsibilites hence created different directories for d
       * IsEmpty.ts: Function to test whether an object/string is empty/null/undefined.
       * logger.ts: A middleware function for logging HTTP requests.
       * Validator.ts: Class which provides methods for validation of payloads coming from front end.
- - public
-    * swagger.json: I have used swagger.json for API documentation. Added only a few API endpoints because it was a manual job and was costing so much time. It could have been managed dynamically but, to be honest I have used it for the first time hence used swagger.json
+      * swagger.json: I have used swagger.json for API documentation. Added only a few API endpoints because it was a manual job and was costing so much time. It could have been managed dynamically but, to be honest I have used it for the first time hence used swagger.json
 
 
 ### Comments

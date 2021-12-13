@@ -9,7 +9,7 @@ import hobbyRouter from "./routes/hobby";
 import mLogger from "./utils/logger";
 import mongoose from "mongoose";
 import * as swaggerUi from "swagger-ui-express";
-import * as swaggerDocument from "../public/swagger.json";
+import * as swaggerDocument from "../swagger.json";
 
 const PORT = process.env.PORT || 8000;
 const mongoDbURL = process.env.mongoDbURL;
